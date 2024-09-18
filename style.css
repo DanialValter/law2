@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f5f5dc;
+    color: #4b3621;
+    background-image: url('https://www.transparenttextures.com/patterns/french-stucco.png');
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fffaf0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d3b88c;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #8b4513;
+    text-shadow: 2px 2px 0 #d2b48c;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #8b7d6b;
+}
+
+.lawyers {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lawyer {
+    padding: 20px;
+    background-color: #faf0e6;
+    border: 2px solid #d3b88c;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.lawyer h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #8b4513;
+}
+
+.lawyer p {
+    font-size: 1.2em;
+    color: #4b3621;
+}
+
+.lawyer img {
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 3px solid #d3b88c;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
